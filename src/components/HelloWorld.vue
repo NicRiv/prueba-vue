@@ -11,7 +11,9 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Brindamos soluciones, priorizamos sustentabilidad.
+      Brindamos soluciones,
+      <br />
+      priorizamos sustentabilidad.
     </h3>
   </div>
 </template>
@@ -19,13 +21,13 @@ defineProps({
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 2.7rem;
   position: relative;
   top: -10px;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 0.75rem;
 }
 
 .greetings h1,
@@ -37,6 +39,9 @@ h3 {
   .greetings h1,
   .greetings h3 {
     text-align: left;
+  }
+  .greetings h3 {
+    font-size: 1.2rem;
   }
 }
 </style>
