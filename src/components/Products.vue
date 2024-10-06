@@ -2,7 +2,7 @@
   <div class="productos" v-for="item in productos" :key="item.id">
     <p>{{ item.nombre }}</p>
 
-    <img :src="`/public/images/${item.producto}.jpg`" :alt="`Imagen del producto ${item.nombre}`" />
+    <img :src="`/images/${item.producto}.jpg`" :alt="`Imagen del producto ${item.nombre}`" />
   </div>
 </template>
 
